@@ -1,8 +1,12 @@
 import React from 'react'
+import Initiative from '../HomeComponents/Initiative'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+    <div className='mt-56'>Home</div>
+    <Initiative/>
+    </>
   )
 }
 
