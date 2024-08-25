@@ -43,7 +43,6 @@ const Demo = () => {
     fetchPageContent();
   }, [pageId]); // Dependency on pageId
 
-  if (loading) return <div className="mt-10 text-center text-6xl">Loading...</div>;
   if (error) return <div className="mt-10 text-center text-6xl">{error}</div>;
 
   return (

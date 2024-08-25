@@ -123,7 +123,7 @@ const Initiative = () => {
   return (
     <div className="bg-gray-100 py-10">
       <h1 className="text-3xl font-bold text-center mb-6">Initiatives</h1>
-      <div className="overflow-hidden relative mx-auto max-w-6xl">
+      <div className="overflow-hidden relative mx-auto max-w-7xl">
         <div
           ref={sliderRef}
           className="flex"
